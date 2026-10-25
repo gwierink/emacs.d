@@ -1,0 +1,17 @@
+# Ignore everything at the top level...
+/*
+
+# ...then opt back in to what you actually write
+!/.gitignore
+!/README.md
+!/init.el
+!/early-init.el
+!/lisp/
+!/snippets/
+
+# Never commit byte-/native-compiled files or editor droppings
+*.elc
+*.eln
+*~
+\#*\#
+.#*
