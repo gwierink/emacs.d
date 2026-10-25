@@ -4,6 +4,7 @@
 # ...then opt back in to what you actually write
 !/.gitignore
 !/README.md
+!/LICENSE
 !/init.el
 !/early-init.el
 !/lisp/
